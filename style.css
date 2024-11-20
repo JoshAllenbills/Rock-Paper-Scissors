@@ -11,10 +11,10 @@ img {
 }
 button {
   text-align: center; /* Centers the content */
-  margin-top: 10px;
- color: darkorchid;
- background-color: mediumblue;
+ background-color: blueviolet;
+ color: crimson;
  border-radius: 10px;
- border-color: blue;
+ border-width: 5px;
+ border-color: forestgreen;
 }
  
