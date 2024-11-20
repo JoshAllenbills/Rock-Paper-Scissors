@@ -1,6 +1,20 @@
-img{
-    width: 250px;
-  height: auto;
-  
-
+body {
+ background-color: chartreuse;
+  text-align: center;
 }
+
+img {
+  width: 250px;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+button {
+  text-align: center; /* Centers the content */
+  margin-top: 10px;
+ color: darkorchid;
+ background-color: mediumblue;
+ border-radius: 10px;
+ border-color: blue;
+}
+ 
