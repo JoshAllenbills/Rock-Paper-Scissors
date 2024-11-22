@@ -63,3 +63,11 @@ function displayResults(playerChoice, computerChoice, winner) {
         resultElement.textContent += " Computer wins!,You lose you SUCK.";
     }
 }
+
+document.getElementById("resetButton").addEventListener("click", function() {
+    playerScore = 0;
+    computerScore = 0;
+    playerScoreElement.textContent = `Player: ${playerScore}`;
+    computerScoreElement.textContent = `Computer: ${computerScore}`;
+    resultElement.textContent = "Game has been reset!";
+});
