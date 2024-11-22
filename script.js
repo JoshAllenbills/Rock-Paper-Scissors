@@ -12,9 +12,12 @@ function determineWinner(userChoice, computerChoice) {
         (userChoice === 'paper' && computerChoice === 'rock') ||
         (userChoice === 'scissors' && computerChoice === 'paper')) {
         return 'You win!';
-    } else {
+    } 
+
+    else {
         return 'You lose!';
     }
+ 
 }
 document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('button');
@@ -35,3 +38,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+let playerScore = 0;
+let computerScore = 0;
+
+function updateScore(winner) {
+  if (winner === 'player') {
+    playerScore++;
+    document.getElementById('player-score').textContent = playerScore;
+  } else if (winner === 'computer') {
+    computerScore++;
+    document.getElementById('computer-score').textContent = computerScore;
+  }
+}
