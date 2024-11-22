@@ -9,12 +9,15 @@ img {
   display: inline-block;
   margin-bottom: 10px;
 }
-button {
+.choice {
   text-align: center; /* Centers the content */
  background-color: blueviolet;
  color: crimson;
  border-radius: 10px;
  border-width: 5px;
  border-color: forestgreen;
+}
+.choice:hover {
+  background-color: blue; /* Change to your desired color */
 }
  
